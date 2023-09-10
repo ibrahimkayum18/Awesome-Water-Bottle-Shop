@@ -1,0 +1,19 @@
+
+.cart{
+    border: 3px solid skyblue;
+    border-radius: 15px;
+    padding: 10px;
+    /* margin-bottom: 15px; */
+}
+.img{
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.cart-container{
+    /* display: grid; */
+    /* grid-template-columns: repeat(5, 1fr); */
+    /* gap: 10px; */
+}

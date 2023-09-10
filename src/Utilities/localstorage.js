@@ -34,5 +34,10 @@ const addToLS = id => {
     cart.push(id);
     setCartData(cart);
 }
+const removeFromLS = id => {
+    const cart = getTheDataFromLS();
+    const remaining = cart.filter(idx => idx !== id);
+    setCartData(remaining);
+}
 
-export {addToLS, getTheDataFromLS}
+export {addToLS, getTheDataFromLS, removeFromLS}
